@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json()); // post요청의 body를 parsing할 수 있게하는 미들웨어
 
